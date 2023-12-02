@@ -1,0 +1,89 @@
+.heroPage {
+  min-height: 600px;
+  padding: 20px;
+}
+.headerText1 {
+  font-size: 4rem;
+}
+.Heroflex {
+  display: flex;
+}
+.flexItems {
+  height: 600px;
+  width: 40rem;
+  display: flex;
+  flex-direction: column;
+}
+.white {
+  height: 100px;
+  width: 100px;
+  background-color: white;
+}
+.clip {
+  clip-path: circle();
+}
+.headerBox {
+  min-height: 400px;
+  width: 55rem;
+  display: flex;
+  flex-direction: column;
+}
+.headerBox p {
+  line-height: 1.4em;
+}
+.headerText {
+  max-width: 450px;
+  color: black;
+}
+@media only screen and (max-width: 800px) {
+  .Heroflex {
+    display: flex;
+    flex-direction: column;
+    
+   
+  }
+  .headerBox {
+    width: 300px !important;
+    margin-top: 20px;
+  }
+  .headerText1 {
+    font-size: 2rem;
+  }
+  .headerText {
+    max-width: 450px;
+    color: black;
+    font-size: x-small;
+    margin-top: 20px;
+  }
+  .btn1 {
+    font-size: xx-small;
+    width: 100px;
+    height: 40px;
+  }
+  .btn2 {
+    font-size: xx-small;
+    width: 100px;
+    height: 40px;
+  }
+  .flexItems {
+    height: 400px;
+    width: 18rem;
+    display: flex;
+    flex-direction: column;
+ 
+   
+  }
+  .cropImg {
+    width: 200px;
+   
+  }
+  .cropBox {
+    background-color: green!important;
+    height: 200px !important;
+    margin-top: -50px !important;
+  }
+  .heroPage{
+      background-color: #1e1e1e;
+      height: 60rem;
+  }
+}
