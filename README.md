@@ -1,1 +1,1 @@
-# NaijaSDGs2023-PrecisionFarming
+# precision_farming
