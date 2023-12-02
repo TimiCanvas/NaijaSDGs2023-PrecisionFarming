@@ -2,7 +2,7 @@ import React,{useState} from 'react'
 
 const Navbar = () => {
   return (
-    <div className=' h-[80px] p-4 flex justify-around border-b-[1px] border-b-slate-400'>
+    <div className=' h-[80px] p-4 flex justify-between border-b-[1px] border-b-slate-400'>
 
         <p className='text-slate-200'>Agrisage</p>
         <div className='text-slate-200 flex gap-[20px]'>

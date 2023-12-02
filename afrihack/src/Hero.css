@@ -1,0 +1,49 @@
+.heroPage
+{
+ 
+    min-height: 600px;
+    padding: 20px;
+}
+.headerText1{
+    font-size: 4rem;
+   
+}
+.Heroflex
+{
+display: flex;
+
+}
+.flexItems
+{
+    max-height: 600px;
+    min-width: 40rem;
+   display: flex;
+   flex-direction: column;
+    
+}
+.white{
+    height: 100px;
+    width: 100px;
+    background-color: white;
+}
+.clip
+{
+    clip-path: circle();
+}
+.headerBox
+{
+    
+    min-height: 400px;
+    min-width: 55rem;
+    display: flex;
+    flex-direction: column;
+}
+.headerBox p{
+    line-height: 1.4em;
+}
+.headerText
+{
+   
+    max-width: 450px;
+    color: black;
+}
