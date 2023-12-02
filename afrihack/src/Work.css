@@ -1,1 +1,35 @@
-
+@media only screen and (max-width: 800px) {
+    .WorkFlex
+    {
+        display: flex;
+        flex-direction: column !important;
+        width: 300px !important;
+        height:500px !important ;
+        padding: 20px;
+       
+    }
+    .colorit
+    {
+        background-color: #1e1e1e !important;
+        height: 100rem !important;
+    }
+    .flexOrder1
+    {
+        order: 1;
+    }
+   .flexOrder3
+   {
+    order: 2;
+   }
+   .flexOrder1Box
+   {
+       order: 1;
+       width: 250px !important;
+   }
+   .contactDiv
+   {
+   
+    height: 45rem !important;    
+}
+   
+}

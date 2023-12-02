@@ -19,10 +19,10 @@ const Hero = () => {
             your farm's potential.
           </p>
           <div className=" mt-4 flex  gap-[50px] p-4">
-            <button className="text-white bg-green-800 p-[8px] rounded-[5px] w-[120px]">
+            <button className="text-white bg-green-800 p-[8px] rounded-[5px] btn1 lg:w-[120px]">
               Start Now
             </button>
-            <button className="text-white bg-[#1E1E1E] border-[2px] p-[8px] rounded-[5px] w-[120px]">
+            <button className="text-white bg-[#1E1E1E] btn2 border-[2px] p-[8px] rounded-[5px] w-[120px]">
               How it works?
             </button>
           </div>
@@ -30,8 +30,8 @@ const Hero = () => {
 
         <div className=" relative flexItems  ">
           <img src={crop} className='w-[500px]' />
-          <div className=" bg-green-900 h-[300px] rounded-[20px]  flex justify-center bottom-[0] items-center absolute  ">
-            <img src={crop2} />
+          <div className=" bg-green-900 h-[300px] cropBox rounded-[20px]  flex justify-center bottom-[0] items-center absolute  ">
+            <img src={crop2} className='cropImg' />
           </div>
         </div>
       </div>
